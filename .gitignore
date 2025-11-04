@@ -1,0 +1,23 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+
+# Ignore large data & model files
+datasets/
+model_pickle/
+
+# IDE folders
+.vscode/
+.idea/
